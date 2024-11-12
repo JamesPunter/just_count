@@ -1,3 +1,7 @@
 import square
 
-print(f"The square of 5 is {square.square(5)}")
+
+def main(value):
+    print(f"The square of {value} is {square.square(value)}")
+
+main(10)
