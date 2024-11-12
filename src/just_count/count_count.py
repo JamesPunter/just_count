@@ -1,7 +1,7 @@
-import square
+import just_count.square
 
 
 def main(value):
-    print(f"The square of {value} is {square.square(value)}")
+    print(f"The square of {value} is {just_count.square.square(value)}")
 
-main(10)
+main(5)
