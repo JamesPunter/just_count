@@ -1,7 +1,12 @@
-import just_count.square
+import click
+
+import square
 
 
+@click.command()
+@click.argument("value", type = int )
 def main(value):
-    print(f"The square of {value} is {just_count.square.square(value)}")
+    print(f"The square of {value} is {square.square(value)}")
 
-main(5)
+
+main()
